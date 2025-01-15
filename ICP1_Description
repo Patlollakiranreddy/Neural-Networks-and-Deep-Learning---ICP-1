@@ -1,0 +1,32 @@
+1.Write a program that takes two strings from the user: first_name, last_name. Pass these variables to 
+fullname function that should return the (full name). 
+ 
+Description: This program prompts the user to input their first and last names. It defines two 
+functions: full name combines the first and last names into a full name, and string_alternative returns 
+every other character of the full name using string slicing. The program displays both the full name 
+and the alternative string with every other character removed. The logic is executed within the main 
+function, which handles user input and calls the other functions to display the results. 
+
+2. Write a python program to find the wordcount in a file (input.txt) for each line and then print the 
+output. o Finally store the output in output.txt file.
+
+Description: This Python program processes a text file by reading each line, counting the frequency 
+of each word using the Counter class from the collection’s module, and then writing both the original 
+line and the word frequencies to a new output file. It first opens the input file, reads the lines, and 
+splits each line into words. The Counter is used to tally the occurrences of each word in the line. Then, 
+the program writes the original line to the output file, followed by the word counts for that line, 
+formatted as "word: count". Finally, the output file contains the original text along with word 
+frequencies for each line. The program is designed to handle multiple lines in the input file and 
+produce a corresponding word count summary for each.
+
+3. Write a program, which reads heights (inches.) of customers into a list and convert these heights    to 
+centimetres in a separate list using: 1) Nested Interactive loop. 2) List comprehensions.
+
+Description: This Python program provides two methods to convert customer heights from inches to 
+centimetres. The first method, Nested Interactive Loop, allows the user to input the number of 
+customers and their corresponding heights in inches. It then converts these heights to centimetres 
+and displays the results. The second method, List Comprehension, uses a predefined list of heights in 
+inches and applies a more concise approach to convert the heights to centimetres using list 
+comprehension. In both methods, the inches_to_cm function is used to perform the conversion by 
+multiplying the given height in inches by the conversion factor (2.54). The program then prints the 
+converted heights in centimetres for each method.
